@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationBar from '../containers/NavigationBar';
+import NavigationBar from '../containers/navigation/NavigationBar';
 import FlashMessagesList from '../containers/flash/FlashMessagesList';
 
 class App extends React.Component {

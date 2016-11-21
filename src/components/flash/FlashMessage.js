@@ -16,7 +16,8 @@ class FlashMessage extends React.Component {
     return (
       <div className={classnames('alert', {
         'alert-success': type === 'success',
-        'alert-danger': type === 'error'
+        'alert-danger': type === 'error',
+        'alert-warning': type === 'warning'
       })}>
         <button onClick={this.onClick} className="close"><span>&times;</span></button>
         {text}
