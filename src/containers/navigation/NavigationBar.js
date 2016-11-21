@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { logout } from '../../actions/authActions';
-import CourseLinks from './CourseLinks';
+import CourseLinks from '../../components/navigation/CourseLinks';
 
 class NavigationBar extends React.Component {
   logout(e) {

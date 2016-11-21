@@ -5,7 +5,7 @@ import App from './components/App';
 import HomePage from './components/HomePage';
 import SignupPage from './containers/auth/SignupPage';
 import LoginPage from './components/auth/LoginPage';
-import Courses from './containers/courses/Courses';
+import Courses from './components/courses/Courses';
 import CourseList from './containers/courses/CourseList';
 import NewCourse from './containers/courses/NewCourse';
 /*import NewEventPage from './components/events/NewEventPage';

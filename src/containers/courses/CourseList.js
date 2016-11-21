@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import ShowCourse from '../../components/courses/ShowCourse'
+import CourseThumbnail from '../../components/courses/CourseThumbnail'
 
 import { getCourseList } from '../../actions/courseActions';
 import { addFlashMessage } from '../../actions/flashMessages';
@@ -51,7 +51,7 @@ class CourseList extends React.Component {
     let courses = [];
 
     mapValues(this.props.courses, function(o){
-      courses.push(<ShowCourse key={o.id} course={o} />);
+      courses.push(<CourseThumbnail key={o.id} course={o} />);
     });
 
     /*const courses = this.props.courses.map(course =>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ShowCourse extends React.Component {
+class CourseThumbnail extends React.Component {
   render() {
     return (
         <div className="col-xs-6 col-md-3">
@@ -17,4 +17,4 @@ class ShowCourse extends React.Component {
   }
 }
 
-export default ShowCourse;
+export default CourseThumbnail;

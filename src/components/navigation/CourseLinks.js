@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import RoleAwareContainer from '../auth/RoleAwareContainer';
+import RoleAwareContainer from '../../containers/auth/RoleAwareContainer';
 
 class CourseLinks extends RoleAwareContainer {
   constructor(props) {
